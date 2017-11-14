@@ -45,19 +45,15 @@
             android:text="650-555-5555"
             android:textSize="17sp" />
 
-        <Button
-            android:id="@+id/url"
-            style="?android:attr/borderlessButtonStyle"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:onClick="goToPage"
-            android:padding="0dp"
+            android:autoLink="all"
+            android:linksClickable="true"
             android:text="www.udacity.com"
-            android:textAllCaps="false"
-            android:textColor="@android:color/holo_blue_dark"
             android:textSize="18sp"
             android:textStyle="italic" />
 
